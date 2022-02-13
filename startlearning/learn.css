@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    }
+    
+    .header{
+        width: 100%;
+        height: 80px;
+        display: block;
+        background-color: blueviolet;
+    }
+    
+    .inner_header{
+        width: 1000px;
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .logo_container{
+        height: 100%;
+        display: table;
+        float: left;
+    
+    }
+    
+    .logo_container h1{
+        color: black;
+        height: 100%;
+        display: table-cell;
+        vertical-align: left;
+        font-family: 'montserrat';
+        font-size: 32px;
+        font-weight: 200;
+    }
+    
+    .logo_container h1 span{
+        font-weight: 800;
+    }
+    
+    .navigation{
+        float: right;
+        height: 100%;
+    }
+    
+    .navigation a{
+        height: 100%;
+        display: table;
+        float: left;
+        padding: 0px 20px;
+    }
+    
+    .navigation a:last-child{
+        padding-right: 5;
+    }
+    
+    .navigation a li{
+        display: table-cell;
+        vertical-align: middle;
+        height: 100%;
+        color:black;
+        font-family: 'montserrat';
+        font-size: 16px;
+    }
+    
+    body{
+        background: url(../pics/logo4.jpg) no-repeat;
+        background-size: cover;
+        color: transparent;
+    
+    }
+    
+    
+    
+    .slider-frame{
+        overflow: hidden;
+        height: 800px;
+        width: 1200px;
+        margin-left: 360px;
+        margin-top: 20px;
+    }
+    /*--------SLIDE ANIMATION---------*/
+    
+    @-webkit-keyframes slide_animation{
+        0%{left: 0px;}
+        10%{left: 0px;}
+        20%{left: 1200px;}
+        30%{left: 1200px;}
+        40%{left: 2400px;}
+        50%{left: 2400px;}
+        60%{left: 1200px;}
+        70%{left: 1200px;}
+        80%{left: 0px;}
+        90%{left: 0px;}
+        100%{left:0px;}
+    
+    }
+    
+    .slide-images{
+        width: 3600px;
+        height: 800px;
+        margin: 0 0 0 -2400px;
+        position: relative;
+        -webkit-animation-name: slide_animation;
+        -webkit-animation-duration: 10s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-direction: reverse;
+        -webkit-animation-play-state: running;
+    }
+    
+    
+    .img-container{
+        height: 800px;
+        width: 1200px;
+        position: relative;
+        float:left
+    }
+    
+    /*--------end of animation part-------*/
+    
+    
+    
+    .footer_container{
+        height: 100%;
+        display: table;
+        float: center;
+    
+    }
+    
+    .footer_container h1{
+        color: black;
+        height: 100%;
+        display: table-cell;
+        vertical-align: center;
+        font-family: 'montserrat';
+        font-size: 32px;
+        font-weight: 200;
+    }
+    
+    .footer_container h1 span{
+        font-weight: 800;
+    }
+    
+    .navigation{
+        float: center;
+        height: 100%;
+    }
+    
+    .navigation a{
+        height: 100%;
+        display: table;
+        float: center;
+        padding: 0px 20px;
+    }
+    
+    
+    .navigation a li{
+        display: table-cell;
+        vertical-align: middle;
+        height: 100%;
+        color:black;
+        font-family: 'montserrat';
+        font-size: 16px;
+    }
+    
+    body{
+        padding: 0;
+        margin: 0;
+        background-color: floralwhite;
+    
+    }
+    
+    
+    
+    .slider-frame{
+        overflow: hidden;
+        height: 800px;
+        width: 1200px;
+        margin-left: 360px;
+        margin-top: 20px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
